@@ -40,7 +40,6 @@ namespace GraphResearch.Graphs
 
         /// <summary>
         /// Checks if this vertex is somehow connected to another.
-        /// Note: This returns false for vertices that are connected to themselves in a way.
         /// </summary>
         /// <param name="b">The other vertex</param>
         /// <returns>Boolean indicating whether the vertex is connected to the other or not.</returns>
@@ -68,7 +67,6 @@ namespace GraphResearch.Graphs
 
         /// <summary>
         /// Checks if this vertex is somehow connected from another.
-        /// Note: This returns false for vertices that are connected to themselves in a way.
         /// </summary>
         /// <param name="b">The other vertex</param>
         /// <returns>Boolean indicating whether the vertex is connected from the other or not.</returns>

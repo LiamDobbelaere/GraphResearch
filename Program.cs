@@ -4,8 +4,8 @@ using GraphResearch.Graphs;
 namespace GraphResearch
 {
     class Program
-    {
-        static void Main(string[] args)
+    {   
+        static void OldMain(string[] args)
         {
             Graph g = new Graph();
 
@@ -22,6 +22,8 @@ namespace GraphResearch
 
             Console.WriteLine(String.Format("Person connected to Hungry? {0}", 
                 g.Vertices["Person"].IsConnectedTo(g.Vertices["Hungry"])));
+
+            
 
             Console.WriteLine(String.Format("Person connected to Money? {0}",
                 g.Vertices["Person"].IsConnectedTo(g.Vertices["Money"])));
