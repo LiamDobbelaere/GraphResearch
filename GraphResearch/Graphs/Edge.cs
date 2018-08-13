@@ -13,6 +13,7 @@ namespace GraphResearch.Graphs
         HELPS_WITH,
         REQUIRES,
         CONTAINS,
+        CAN,
         UNDEFINED
     }
 

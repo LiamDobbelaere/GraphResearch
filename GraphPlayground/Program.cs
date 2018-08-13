@@ -9,11 +9,11 @@ namespace GraphPlayground
         {
             Graph g = Examples.GenericKnowledge();
 
-            Console.WriteLine("A person");
+            /*Console.WriteLine("A person");
             foreach (Edge edge in g.Vertices["Person"].Connections)
             {
                 Console.WriteLine(edge.Type + " " + edge.Next.Name);
-            }
+            }*/
 
             GraphDisplay.Display(g);
 
